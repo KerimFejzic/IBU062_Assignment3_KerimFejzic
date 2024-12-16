@@ -1,6 +1,6 @@
          -Devices-
 - Router: Cisco ISR 4321
-- Switch 1**: Cisco 2960-24TT
+- Switch 1: Cisco 2960-24TT
 - Switch 2: Cisco 2960-24TT
 - PC1:PC-PT
 - PC2:PC-PT
@@ -22,3 +22,9 @@ Second network (210.3.14.0):
 - Server1: 210.3.14.2
 - Server2: 210.3.14.3
 - Router g0/1 (Gateway): 210.3.14.1
+
+
+DHCP confiuration details:
+First, we need to define the range in which IP addresses will be assigned for each network. Then we will configure DHCP for the first subnet (168.90.0.0/16) and the second subnet (210.3.14.0/24). After that, we need to define the IP ranges, set the default gateway to 168.90.0.1, and set the subnet mask to 255.255.0.0 for the first subnet. Next, we will configure the second subnet, similarly to the first one, but here the default gateway will be 210.3.14.1 and the subnet mask will be 255.255.255.0. Then We need to modify the servers, as they are the ones that assign the addresses.
+
+
