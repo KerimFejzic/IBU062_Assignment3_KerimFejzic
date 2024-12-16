@@ -1,0 +1,24 @@
+         -Devices-
+- Router: Cisco ISR 4321
+- Switch 1**: Cisco 2960-24TT
+- Switch 2: Cisco 2960-24TT
+- PC1:PC-PT
+- PC2:PC-PT
+- PC3:PC-PT
+- Laptop:LAPTOP-PT
+- Server1: IBM x3650
+- Server2: IBM x3650
+
+    -Assigned IP Addresses-
+First network (168.90.0.0):
+- PC0 (PC1): 168.90.0.3
+- PC1: 168.90.0.5
+- Laptop: 168.90.0.6
+- Server1: 168.90.0.2
+- Router g0/0 (Gateway): 168.90.0.1
+
+Second network (210.3.14.0):
+- PC1: 210.3.14.4
+- Server1: 210.3.14.2
+- Server2: 210.3.14.3
+- Router g0/1 (Gateway): 210.3.14.1
